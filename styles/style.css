@@ -1,0 +1,47 @@
+#navbar{
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    gap: 50px;
+}
+a{
+    text-decoration: none;
+    color: black;
+
+}
+#options{
+    display: flex;
+   justify-content: flex-end;
+   margin-left: 1079px;
+    gap: 20px;
+}
+#search{
+    margin-top: 20px;
+    margin-left: 400px;
+    height: 50px;
+    width: 500px;
+}
+#btn{
+    height: 50px;
+    border: none;
+    background-color: teal;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+#foodcontainer{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+#foodcontainer>div{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#foodcontainer>div>h2{
+    margin-left: 150px;
+}
+#randomreceipe{
+  margin-top: 20px;
+    margin-left: 400px;
+}
